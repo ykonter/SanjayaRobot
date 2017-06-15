@@ -1,0 +1,31 @@
+{
+  "todo": ["base_loop","simple_sway"],
+
+  "actions":
+  {
+    "task1":
+    {
+      "picture" : "1.PNG",
+      "action" : "click",
+      "wait-after" : 3
+    },
+
+    "simple_sway":
+    {
+      "sway" : [100, -10]
+    }
+
+  },
+
+  "loops":
+  {
+    "base_loop":
+    {
+      "picture":"1.PNG",
+      "indexes":[1,2,3],
+      "actions":["task1"]
+    }
+
+  }
+
+}
