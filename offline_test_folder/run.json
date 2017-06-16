@@ -1,18 +1,29 @@
 {
-  "todo": ["base_loop","simple_sway"],
+  "todo": ["type_out_test"],
 
   "actions":
   {
     "task1":
     {
-      "picture" : "1.PNG",
       "action" : "click",
-      "wait-after" : 3
+      "wait_after" : 3
     },
 
     "simple_sway":
     {
       "sway" : [100, -10]
+    },
+
+    "open_any":
+    {
+      "picture":"2.PNG",
+      "action":"double_click",
+      "wait_after":5
+    },
+
+    "type_out_test":
+    {
+      "keys":["left_arrow", "left_arrow", "left_arrow", "left_arrow", "backspace"]
     }
 
   },
@@ -21,8 +32,8 @@
   {
     "base_loop":
     {
-      "picture":"1.PNG",
-      "indexes":[1,2,3],
+      "picture":"2.PNG",
+      "indexes":[0,1,3],
       "actions":["task1"]
     }
 

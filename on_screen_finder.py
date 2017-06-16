@@ -134,5 +134,3 @@ if __name__ == '__main__':
     # time.sleep(20)
     hit = find_all_on_screen(im_path)
     #move_mouse_to_coords(hit)
-
-
